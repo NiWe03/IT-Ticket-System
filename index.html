@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-Ticketsystem</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>IT-Ticketsystem</h1>
+        <form id="ticketForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="device">Gerät:</label>
+            <select id="device" name="device">
+                <option value="Laptop">Laptop</option>
+                <option value="PC">PC</option>
+                <option value="Handy">Handy</option>
+                <option value="Drucker">Drucker</option>
+                <option value="Restliches">Drucker</option>
+                <!-- Weitere Optionen hier hinzufügen -->
+            </select>
+            
+            <label for="problem">Problem:</label>
+            <textarea id="problem" name="problem" rows="4" required></textarea>
+            
+            <button type="submit">Senden</button>
+        </form>
+        <p id="confirmationMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
