@@ -1,1 +1,1 @@
-Very Simple Front End for IT Ticket System
+Very simple Front End for IT Ticket System
